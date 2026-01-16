@@ -1,4 +1,5 @@
  var licznik = 1;
+
 function generuj(id){
      if(id =="jeden"){
         document.getElementById("jeden").innerHTML = licznik
@@ -40,6 +41,17 @@ function generuj(id){
      }
     licznik++;
 
+
+ if (licznik > 9) {
+      var pola = document.querySelectorAll('.kom');
+      for (var i = 0; i < pola.length; i++) {
+        pola[i].onclick = null; 
+        pola[i].style.cursor = 'default';
+      }
+    }
+   
    
 
-}
+  }
+    
+ 
