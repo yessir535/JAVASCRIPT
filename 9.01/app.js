@@ -42,16 +42,12 @@ function generuj(id){
     licznik++;
 
 
- if (licznik > 9) {
-      var pola = document.querySelectorAll('.kom');
-      for (var i = 0; i < pola.length; i++) {
-        pola[i].onclick = null; 
-        pola[i].style.cursor = 'default';
-      }
-    }
-   
-   
-
-  }
+         if(licznik>9){
+            var pola = document.querySelectorAll('.kom');
+            for (var i = 0; i < pola.length; i++) {
+              pola[i].onclick = null; 
+              pola[i].style.cursor = 'default';
+            }
+          }
     
- 
+}
