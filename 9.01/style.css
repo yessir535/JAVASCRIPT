@@ -7,3 +7,9 @@
     display: flex;
     
 }
+#jeden, #dwa, #trzy, #cztery, #piec, #szesc, #siedem, #osiem, #dziewiec{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
