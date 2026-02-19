@@ -43,10 +43,10 @@ function generuj(id){
 
 
          if(licznik>9){
-            var pola = document.querySelectorAll('.kom');
-            for (var i = 0; i < pola.length; i++) {
-              pola[i].onclick = null; 
-              pola[i].style.cursor = 'default';
+            var licby = document.querySelectorAll('.kom');
+            for (var i = 0; i < licby.length; i++) {
+              licby[i].onclick = null; 
+              licby[i].style.cursor = 'default';
             }
           }
     
