@@ -6,30 +6,26 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body id="body">
-    <div class="div1">
-      <button id="kol1" onclick="kol1()">Kolęda 1</button>
-      <button id="kol2" onclick="kol2()">Kolęda 2</button>
-      <button id="kol3" onclick="kol3()">Koleda 3</button>
+  <body>
+    <div class="row">
+      <div id="div1" class="cell" onclick="generuj('div1')"></div>
+      <div id="div2" class="cell" onclick="generuj('div2')"></div>
+      <div id="div3" class="cell" onclick="generuj('div3')"></div>
     </div>
-    <div class="div2">
-      <div class="pol">
-        <h1 id="koleda"></h1>
-      </div>
-      <div class="pol_dwa">
-        <div class="lewo">
-          <button id="color1" onclick="red()">czerwony</button>
-          <button id="color2" onclick="green()">zielony</button>
-          <button id="color3" onclick="blue()">niebieski</button>
-        </div>
-        <div class="prawo">
-          <button id="color_1" onclick="czerw()">czerwony</button>
-          <button id="color_2" onclick="ziel()">zielony</button>
-          <button id="color_3" onclick="nie()">niebieski</button>
-        </div>
-      </div>
+
+    <div class="row">
+      <div id="div4" class="cell" onclick="generuj('div4')"></div>
+      <div id="div5" class="cell" onclick="generuj('div5')"></div>
+      <div id="div6" class="cell" onclick="generuj('div6')"></div>
+    </div>
+
+    <div class="row">
+      <div id="div7" class="cell" onclick="generuj('div7')"></div>
+      <div id="div8" class="cell" onclick="generuj('div8')"></div>
+      <div id="div9" class="cell" onclick="generuj('div9')"></div>
     </div>
 
     <script src="app.js"></script>
+
   </body>
 </html>
