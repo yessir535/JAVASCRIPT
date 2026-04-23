@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 async function getData() {
  const data = await fetch(
    "https://restcountries.com/v3.1/all?fields=name,flags,continents",
@@ -20,3 +21,34 @@ async function getData() {
  }
 }
 getData();
+=======
+    var auto = {
+      "marka": "Mercedes",
+      "model": "C200",
+      "rok": 2018,
+      "przebieg": 120000,
+      "silnik": {
+        "pojemnosc": 1000,
+        "moc": 184
+
+      }
+    }
+
+auto.przebieg += 2000
+
+var klasa = {
+  "nazwa": "1PRO",
+  "wychowawca": "Pani Anita Guła",
+  "uczniowie": {
+    "nrWdzienniku:": 1,
+    "imie": "Kacper",
+    "nazwisko": "Kowalski",
+    "wiek": 15
+  }
+   
+}
+
+
+console.log(klasa)
+  
+>>>>>>> Stashed changes
